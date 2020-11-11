@@ -16,6 +16,10 @@ html{
     left: 0;
 }
 
+#main {
+    width: 90%;
+}
+
 #about {
     width: 25%;
     float: left;
@@ -23,11 +27,20 @@ html{
     padding-left: 30px;
     margin-left: 10%;
     margin-top: 3%;
+    
   
 }
 
+#ratings{
+    width: 32%;
+    float: left;
+    margin:120px;
+    
+
+}
+
 h1{
-    /* width: 30%; */
+   
     color: hsl(300, 43%, 22%);
     font-family: 'Spartan', sans-serif;
     font-weight: 700;
@@ -38,27 +51,82 @@ h1{
 
 }
 
+
 p{
    color: hsl(303, 10%, 53%);
    font-family: 'Spartan', sans-serif;
    font-size: 13px;
    line-height: 20px;
    width: 400px;
-   font-weight: 400;
+   font-weight: 600;
  
 }
 
 #rating {
+    
     background-color:hsl(300, 24%, 96%);
-    padding: 15px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-#ratings{
-    width: 30%;
-    float: right;
-    margin-top: 100px;
+    border-radius: 8px; 
+     padding:12px;  
+     margin-bottom: 12px; 
+     
 
 }
+
+#rating p{
+
+    margin: 0px;
+    display: inline-block;
+   margin-left: 20px;
+   font-family: 'Spartan', sans-serif;
+   color: hsl(300, 43%, 22%);
+   width: 200px;
+   font-weight: 700;
+   font-size: 12px;
+    
+}
+
+#stars {
+    display: inline-block;
+    margin-left: 10px;
+ 
+}
+
+img {
+    width: 14%;
+    
+}
+
+.rate-1{
+    margin-left:10%;
+    margin-right: -10%;
+}
+.rate-2{
+    margin-left:20%;
+    margin-right: -20%;
+}
+.rate-3{
+    margin-left:30%;
+    margin-right: -30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
