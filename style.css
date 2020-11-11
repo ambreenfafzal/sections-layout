@@ -50,8 +50,15 @@ p{
 
 #rating {
     background-color:hsl(300, 24%, 96%);
-    padding: 5px;
+    padding: 15px;
     margin: 5px;
     border-radius: 5px;
+}
+
+#ratings{
+    width: 30%;
+    float: right;
+    margin-top: 100px;
+
 }
 
