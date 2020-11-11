@@ -21,6 +21,8 @@ html{
     float: left;
     padding-top: 40px;
     padding-left: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
   
 }
 
@@ -32,6 +34,8 @@ h1{
     padding-bottom: -2px;
     margin-bottom: 1px;
     letter-spacing: -2px;
+    
+
 }
 
 p{
@@ -44,6 +48,10 @@ p{
  
 }
 
-#ratings {
-  top: 20px;
+#rating {
+    background-color:hsl(300, 24%, 96%);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
 }
+
