@@ -1,11 +1,14 @@
 html {
-  background-image: url("/images/bg-pattern-top-desktop.svg"),url("/images/bg-pattern-bottom-desktop.svg");
-  background-position: left top, right bottom;
-  background-repeat: no-repeat, no-repeat;
+  background-image: url("/images/bg-pattern-top-desktop.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1440px;
 
+  /* background-image: url("/images/bg-pattern-top-desktop.svg"),url("/images/bg-pattern-bottom-desktop.svg"); */
+  /* background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat; */
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
