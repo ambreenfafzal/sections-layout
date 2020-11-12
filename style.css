@@ -1,5 +1,7 @@
 html {
-background-image: url(/images/bg-pattern-top-desktop.svg);
+background-image:
+ url(/images/bg-pattern-top-desktop.svg),
+ url(/images/bg-pattern-bottom-desktop.svg);
   /* background-position: left top;
   background-repeat: no-repeat; */
   /* Set rules to fill background */
