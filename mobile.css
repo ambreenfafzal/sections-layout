@@ -1,6 +1,95 @@
 @media only screen and (max-width: 376px) {
-    html{
-    min-width:0px;
+  html {
+    min-width: 0px;
+    width: 57%;
     position: absolute;
-    }
+
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    overflow-x: hidden;
   }
+
+  body {
+    width: 100%;
+    position: relative;
+  }
+
+  #about {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 3%;
+  }
+
+  h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 36px;
+    width: 130%;
+    letter-spacing: -2px;
+    line-height: 35px;
+    margin-left: 9%;
+  }
+
+  #about p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    width: 160%;
+    margin-left: -10%;
+    text-align: center;
+    margin-right: 50%;
+    margin-top: 24px;
+    margin-bottom: 15%;
+  }
+  #ratings {
+    width: 165%;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .rate-1,
+  .rate-2,
+  .rate-3 {
+    margin-left: -32%;
+   
+  }
+  #stars {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  #stars img {
+    width: 16%;
+   
+  }
+
+  #review {
+    max-width: 100%;
+    height: auto;
+    background-color: hsl(300, 43%, 22%);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px; 
+    /* width: 165%; */
+    margin-top: 12px;
+    text-align: center;
+    
+  }
+  .review-1 {
+    margin-left: 42%;
+    width: 110%;
+   
+  }
+
+.review-2 {
+    margin-left: -32%;
+   
+  }
+  .review-3 {
+    margin-left: -32%;
+  }
+}
