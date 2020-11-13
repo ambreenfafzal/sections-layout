@@ -22,6 +22,7 @@
     text-align: center;
     padding-left: 0px;
     margin-top: 3%;
+
   }
 
   h1 {
@@ -35,26 +36,29 @@
   }
 
   #about p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 25px;
     font-weight: 600;
-    width: 160%;
-    margin-left: -10%;
+    width: 140%;
     text-align: center;
     margin-right: 50%;
     margin-top: 24px;
     margin-bottom: 15%;
   }
   #ratings {
-    width: 165%;
+    width: 155%;
     margin-top: 12px;
+    float: left;
     text-align: center;
+    margin: 0px;
   }
 
   .rate-1,
   .rate-2,
   .rate-3 {
-    margin-left: -32%;
+  
+    width: 135%;
+    margin-left: 5%;
    
   }
   #stars {
@@ -68,28 +72,41 @@
   }
 
   #review {
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
     background-color: hsl(300, 43%, 22%);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 20px;
     border-radius: 8px; 
-    /* width: 165%; */
-    margin-top: 12px;
-    text-align: center;
+    text-align: left;
+  
     
   }
-  .review-1 {
-    margin-left: 42%;
-    width: 110%;
-   
+  .review-1, .review-2, .review-3 {
+    width: 130%;
+    margin-left: 9%;
+    margin-bottom: 10px;
   }
 
-.review-2 {
-    margin-left: -32%;
-   
+  .review-1{
+    margin-top: 30px;
   }
-  .review-3 {
-    margin-left: -32%;
+
+
+
+
+  #info p:nth-child(3n) {
+    
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 22px;
+    padding: 5px;
+    padding-bottom: 20px;
+  
+  } 
+
+  footer{
+      display: none;
   }
 }
