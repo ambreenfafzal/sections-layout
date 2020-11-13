@@ -18,8 +18,8 @@ html {
 }
 
 body{
-  background: 
- url("images/bg-pattern-top-desktop.svg"),url("images/bg-pattern-bottom-desktop.svg");
+  background-image: 
+ url(./images/bg-pattern-top-desktop.svg),url(./images/bg-pattern-bottom-desktop.svg);
 background-position:
  left top,
  right bottom;
