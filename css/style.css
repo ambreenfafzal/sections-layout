@@ -19,7 +19,7 @@ html {
 
 body{
   background-image: 
- url(./images/bg-pattern-top-desktop.svg),url(./images/bg-pattern-bottom-desktop.svg);
+ url(/assets/images/bg-pattern-top-desktop.svg),url(/assets/images/bg-pattern-bottom-desktop.svg);
 background-position:
  left top,
  right bottom;
