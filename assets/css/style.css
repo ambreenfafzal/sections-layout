@@ -1,10 +1,5 @@
 html {
-background:
- url("images/bg-pattern-top-desktop.svg"),url("images/bg-pattern-bottom-desktop.svg");
-background-position:
- left top,
- right bottom;
-background-repeat: no-repeat; 
+
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1440px;
@@ -22,6 +17,14 @@ background-repeat: no-repeat;
   left: 0;
 }
 
+body{
+  background: 
+ url("images/bg-pattern-top-desktop.svg"),url("images/bg-pattern-bottom-desktop.svg");
+background-position:
+ left top,
+ right bottom;
+background-repeat: no-repeat; 
+}
 
 #about {
   width: 21%;
